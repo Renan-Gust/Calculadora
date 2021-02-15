@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.button-configuration, #screen .block-input input.delet[type="button"], #keyboard .block-input input[type="button"] {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+#container {
+  background: #ccc;
+  height: 495px;
+  width: 315px;
+  margin: 105px auto;
+}
+
+#screen {
+  height: 180px;
+}
+
+#screen .block-input {
+  width: 20px;
+  position: relative;
+  top: 81px;
+  left: 289px;
+}
+
+#screen .block-input input[type="button"].delet {
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+}
+
+#screen .screen-entrance {
+  height: 60px;
+  position: relative;
+  top: 60px;
+  padding: 10px 10px 0 0;
+  background: purple;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: end;
+}
+
+#keyboard {
+  height: 312px;
+  width: 307px;
+  margin: 0 auto;
+}
+
+#keyboard .block-input:nth-child(1) {
+  padding-top: 0;
+}
+
+#keyboard .block-input {
+  padding-top: 8px;
+}
+
+#keyboard .block-input input[type="button"] {
+  width: 73.5px;
+  height: 56px;
+  background: black;
+  color: white;
+  font-size: 24px;
+}
+
+#keyboard .block-input input[type="button"]:hover {
+  background: #ccc;
+}
+/*# sourceMappingURL=style.css.map */
